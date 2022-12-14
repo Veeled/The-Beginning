@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    background: #282c28;
+    padding: 6px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border: #282c28 solid;
+}
+.right-links {
+    display: flex;
+    gap: 55px;
+    list-style-type: none;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+a {
+    text-decoration: none;
+    color: #f9faf9;
+}
+.cat {
+    height: auto;
+    width: 75px;
+    border-radius: 25px;
+}

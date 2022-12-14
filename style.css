@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -60,4 +61,37 @@ button {
     width: 100px;
     background: #800020;
     color: #f9faf9;
+}
+.name {
+    background: #F0EAD6;
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    border: 20px #F0EAD6 solid;
+}
+.information {
+    text-align: center;
+}
+.items {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: #800020 solid;
+    margin-top: 50px;
+    border-radius: 15px 50px;
+}
+.text {
+    text-align: center;
+}
+.qoute {
+    background: #282c28;
+    color: #f9faf9;
+    padding: 12px;
+    text-align: center;
 }

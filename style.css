@@ -1,25 +1,26 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     background: #282c28;
     padding: 6px;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
     border: #282c28 solid;
+    
 }
 .right-links {
     display: flex;
     gap: 55px;
     list-style-type: none;
-    flex: 1;
     font-size: 18px;
     font-weight: 700;
-    
+  
 }
 a {
     text-decoration: none;
@@ -29,4 +30,34 @@ a {
     height: auto;
     width: 75px;
     border-radius: 25px;
+}
+.watch {
+    height: 281px;
+    width: 600px;
+    border-radius: 25px;
+    border: #f9faf9 solid;
+}
+.placeholder {
+  background-color: #282c28;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  justify-content: space-evenly;
+  border: 45px #282c28 solid;
+}
+.content {
+    color: #f9faf9;
+    display: flex;
+    flex-direction: column;
+}
+.para {
+    max-width: 500px;
+    text-align: justify;
+}
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+    background: #800020;
+    color: #f9faf9;
 }

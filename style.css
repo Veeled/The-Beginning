@@ -13,7 +13,6 @@ body {
     width: 100%;
     align-items: center;
     border: #282c28 solid;
-    
 }
 .right-links {
     display: flex;
@@ -41,15 +40,14 @@ a {
 .placeholder {
   background-color: #282c28;
   display: flex;
-  align-items: center;
+  align-items: right;
   padding: 12px;
   justify-content: space-evenly;
   border: 45px #282c28 solid;
+  
 }
 .content {
     color: #f9faf9;
-    display: flex;
-    flex-direction: column;
 }
 .para {
     max-width: 500px;
@@ -67,7 +65,7 @@ button {
     display: flex;
     padding: 12px;
     flex-direction: column;
-    border: 20px #F0EAD6 solid;
+    border: 6px #F0EAD6 solid;
 }
 .information {
     text-align: center;
@@ -95,18 +93,30 @@ button {
     padding: 12px;
     text-align: center;
     border: 20px #282c28 solid;
+    display: flex;
+    flex-direction: column;
 }
+.ronaldo {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
 .action {
     padding: 12px;
     background: #F0EAD6;
     border: 20px #F0EAD6 solid;
     display: flex;
     justify-content: center;
+   
 }
 .never {
     width: 900px;
     height: 140px;
     border: #282c28 solid;
     border-radius: 10px;
-    background: #fcfbfc;
+    background: #fcfbfc; 
+    padding: 6px;
+    
 }
+

@@ -94,4 +94,19 @@ button {
     color: #f9faf9;
     padding: 12px;
     text-align: center;
+    border: 20px #282c28 solid;
+}
+.action {
+    padding: 12px;
+    background: #F0EAD6;
+    border: 20px #F0EAD6 solid;
+    display: flex;
+    justify-content: center;
+}
+.never {
+    width: 900px;
+    height: 140px;
+    border: #282c28 solid;
+    border-radius: 10px;
+    background: #fcfbfc;
 }
